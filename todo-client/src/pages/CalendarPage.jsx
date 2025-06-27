@@ -12,7 +12,7 @@ function CalendarPage() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowIntro(false);
-    }, 3500); // 1초 후 인트로 숨김
+    }, 3500); // 3초 후 인트로 숨김
 
     return () => clearTimeout(timer); // 컴포넌트 언마운트 시 타이머 정리
   }, []);
@@ -24,9 +24,9 @@ function CalendarPage() {
 
   return (
     <div>
-      <h2>캘린더 (예정)</h2>
+      <h2>캘린더</h2>
       <CalendarComponents />
-      <button onClick={() => navigate('/today')}>시작하기</button>
+      <button onClick={() => navigate('/today')}>오늘</button>
     </div>
   );
 }
