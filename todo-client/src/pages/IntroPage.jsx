@@ -1,10 +1,8 @@
-import { useNavigate } from 'react-router-dom';
 import Lottie from 'lottie-react';
 import animationData from '../assets/intro.json'; // 상대경로는 src 내부 기준
 import './IntroPage.css';
 
 function IntroPage() {
-  const navigate = useNavigate();
 
   return (
     <div className="intro-fade" style={{
