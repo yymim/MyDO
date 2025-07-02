@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header style={{ padding: '20px', background: '#eee' }}>
+    <header id="header">
       <h1>MyDo</h1>
     </header>
   );

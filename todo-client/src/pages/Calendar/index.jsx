@@ -4,7 +4,7 @@ import Calendar from "./components/index";
 const CalendarComponents = () => {
   return (
     <Container>
-      <Title>달력</Title>
+      <Title style={{ fontSize: "0px" }}>달력</Title>
       <Calendar>
         <Calendar.Header />
         <Calendar.Body />

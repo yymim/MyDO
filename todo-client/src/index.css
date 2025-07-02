@@ -46,4 +46,7 @@ border:1px solid #558ab7 !important;
 
 .placeholdersjs {color:#aaa !important}
 
-#root{width: 100%;max-width: 425px;margin: 0 auto;}
+#root{width: 100%;max-width: 500px;margin: 0 auto;}
+#header{height: 50px;background-color: #eee;display: flex;justify-content: center;align-items: center;font-size: 22px;letter-spacing: 0px;}
+#main-content{height: calc(100vh - 100px)}
+#footer{height: 50px;background-color: #eee;display: flex;justify-content: center;align-items: center;font-size: 12px;letter-spacing: 0px;}

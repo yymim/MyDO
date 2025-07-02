@@ -24,7 +24,7 @@ function CalendarPage() {
 
   return (
     <div>
-      <h2>캘린더</h2>
+      <h2 style={{ fontSize: "0px" }}>캘린더</h2>
       <CalendarComponents />
       <button onClick={() => navigate('/today')}>오늘</button>
     </div>

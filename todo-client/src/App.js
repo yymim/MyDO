@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <Header />
-      <main>
+      <main id="main-content">
         <Routes>
           <Route path="/intro" element={<IntroPage />} />
           <Route path="/" element={<CalendarPage />} />

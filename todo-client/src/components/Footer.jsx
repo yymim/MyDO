@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer style={{ padding: '20px', background: '#eee' }}>
+    <footer id="footer">
       <p>© 2025 MyDo. All rights reserved.</p>
     </footer>
   );
