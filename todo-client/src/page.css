@@ -1,3 +1,12 @@
 @charset "utf-8";
 
+/* component */
+.gMTnJj button{background: none;border: none;display: flex;justify-content: center;align-items: center;}
+.deBkLB{border-radius: 15px;}
+
 /* page */
+.calendar_page {padding: 20px 0;}
+.calendar_page .date_title{text-align: center;font-size: 22px;}
+.calendar_page .content_wrapper{padding: 20px 0 0;}
+.calendar_page .content_wrapper input{width:calc(100% - 50px);line-height: 40px;}
+.calendar_page .content_wrapper button{width:50px;line-height: 40px;}
